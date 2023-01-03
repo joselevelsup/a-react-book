@@ -110,3 +110,5 @@ In React, a component has a lifecycle that it goes through. The lifecycle looks 
 3. **Unmounting**: This lifecycle method occurs when a component is being removed from the VDOM and the user's view. Cleanup code can be performed at this method. So if your component is listening or subscribed to something, make sure you make it unlisten or unsubscribe. If you don't unsubscribe or unlisten to an event then each time your component is mounted, it's going to subscribe AGAIN or add another event listener on top of what is already listening which can lead to having memory leaks (Memory Leaks == **No Bueno**).
 
 These 3 Lifecycles are Very VERY important to understand how your component works and lives when being used. There are other stuff that also happen underneath the hood but we are not jumnping into that as much.
+
+Next we will be taking a dive into [Hooks](06-hooks.md). It will go into more of how to use hooks, the different types of hooks, and how to make our own hook (making a simple API call).
