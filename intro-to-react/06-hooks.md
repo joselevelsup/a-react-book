@@ -545,4 +545,17 @@ We now have a full on custom API hook that shows data! Here are the images with 
 
 ![afterAPIHookIsCalled](./images/afterAPIHookCalled.png)
 
+## Third Party Hooks
+
+The best part about the React community is that if you are thinking of creating a component or hook from Scratch, well you shouldn't. 99% of the time, a team or someone has already developed the component or Hook you are thinking of making.
+
+For instance, fetching data from an API. There are numerous hooks that can help fetch data from an API.
+
+- [ useSWR ](https://swr.vercel.app/)
+- [React Query (now known as Tanstack Query)](https://tanstack.com/query/v4)
+- In the latest Experimental React version, There is a new builtin hook called [`use`](https://github.com/acdlite/rfcs/blob/first-class-promises/text/0000-first-class-support-for-promises.md#example-use-in-client-components-and-hooks). **IT IS NOT MEANT FOR CURRENT DEVELOPMENT. IT IS STILL SUPER EARLY**
+- And So much more.
+
+You can easily go into any search engine you are using and just search for the hook or component you are trying to make and again 99% of the time, a team or someone has already made that hook or component you are trying to make.
+
 Now with Hooks done, let's move onto some more advanced topics. Like Routing. **Let's make a SPA!**
