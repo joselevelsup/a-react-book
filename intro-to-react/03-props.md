@@ -164,4 +164,4 @@ function App() {
 
 In the code above, We edited the code to the Navbar component to accept props and added the `links` prop. Now in the JSX, we are able to use the curly brackets to evaluate some javascript (in this case, a `map`) and use the data in the array which is just the string in the array. This enables us to be a little lazy with how we can write out the items in the navbar by just passing a simple array or strings.
 
-In the next chapter, we will be talking about [events](04-events.nd)
+In the next chapter, we will be talking about [events](04-events.md)
