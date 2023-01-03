@@ -72,4 +72,4 @@ function App() {
 
 The above code only just prints out the value of the input. If we want to save the data that gets stored from the input, we would have to use state for that.
 
-Stay tuned for the [state and lifecycle chapter](05-state-and-lifecycle)!
+Stay tuned for the [state and lifecycle chapter](05-state-and-lifecycle.md)!
