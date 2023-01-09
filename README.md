@@ -10,8 +10,9 @@ It starts at the Intro to React Folder. This repo covers
 - Events
 - State and Lifecycle
 - Hooks
-- Routing (Mostly SPA) (Coming soon)
+- Routing (Mostly SPA)
 - UI/Utility Frameworks (Chakra UI, Bootstrap, Material UI, TailwindCSS) (Coming soon)
+- State Management (Coming soon)
 - Server Side Rendering using Next.js (Coming soon)
 - Comparison to Other Front End Libraries (Coming soon)
 
